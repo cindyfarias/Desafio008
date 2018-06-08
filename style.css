@@ -21,8 +21,9 @@ a:hover{
 text-decoration: none;
 }
 
-.nav-bground{
-	background-color: red;
+a.link{
+	color: rgb(88, 176, 45) !important;
+	text-transform: uppercase;
 }
 
 .sliderprev, .slidernext{
@@ -35,7 +36,7 @@ text-decoration: none;
 
 .detallebanner {
 position: absolute;
-top: 25%;
+top: 35%;
 width: 100%;
 z-index: 0;
 }
@@ -72,6 +73,7 @@ text-transform: uppercase;
 h4.tituloseccion {
     font-size: 18px;
 }
+
 
 .logo {
 width: 180px;
@@ -117,7 +119,10 @@ main {
 
 }
 
-
+.menunav{
+	position: absolute;
+	z-index: 1;
+}
 .seccion2 {
 	background-color: #f3f3f3;
 	padding: 50px 0;
@@ -130,6 +135,8 @@ main {
     height: auto;
 
 }
+
+@
 
 
 
